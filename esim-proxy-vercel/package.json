@@ -1,8 +1,0 @@
-{
-  "name": "esim-proxy-vercel",
-  "version": "1.0.0",
-  "main": "api/esim-query.js",
-  "dependencies": {
-    "node-fetch": "^2.6.7"
-  }
-}
