@@ -1,15 +1,11 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/esim-query.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/esim-query.js",   "use": "@vercel/node" },
+    { "src": "public/index.html",   "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/api/esim-query",
-      "dest": "api/esim-query.js"
-    }
+    { "src": "/api/esim-query",     "dest": "api/esim-query.js" },
+    { "src": "/",                   "dest": "public/index.html" }
   ]
 }
