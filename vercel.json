@@ -11,5 +11,11 @@
       "src": "/api/esim-query",
       "dest": "api/esim-query.js"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
   ]
 }
